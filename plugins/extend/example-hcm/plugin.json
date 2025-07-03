@@ -1,0 +1,15 @@
+{
+    "$schema": "../../../system/schema/extend.json",
+    "name": "Example HCM",
+    "description": "An example of creating a plugin with HCM for Sunlight CMS.",
+    "authors": [
+        {"name": "MyName", "url": "mydomain.tld"}
+    ],
+    "version": "1.0.0",
+    "environment": {
+        "system": "^8.0"
+    },
+    "hcm": {
+        "my_cool_hcm": {"script": "hcm/my_cool_hcm.php"}
+    }
+}
